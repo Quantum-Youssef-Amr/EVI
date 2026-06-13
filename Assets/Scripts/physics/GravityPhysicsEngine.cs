@@ -21,6 +21,7 @@ public class GravityPhysicsEngine : MonoBehaviour
         for (int m_planetIdx = 0; m_planetIdx < Planets.Count; m_planetIdx++)
         {
             float m_DistanceFromPlanet = Vector2.Distance(Planets[m_planetIdx].position, Player.position);
+            // calculate the force in the direction of the current planet
             m_SumOfGravityForces += G * Player.mass * Planets[m_planetIdx].mass * Mathf.Pow(m_DistanceFromPlanet, 2f) * (Planets[m_planetIdx].position - Player.position).normalized;
         }
 

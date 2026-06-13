@@ -240,7 +240,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -263,7 +263,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -318,12 +318,12 @@ TextureImporter:
       name: Saturn sprite sheet_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 11271
-        width: 1359
-        height: 514
+        x: 0
+        y: 10760
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: Saturn sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 1622
-        y: 11271
-        width: 1372
-        height: 513
+        x: 1537
+        y: 10760
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -362,12 +362,12 @@ TextureImporter:
       name: Saturn sprite sheet_2
       rect:
         serializedVersion: 2
-        x: 3155
-        y: 11271
-        width: 1377
-        height: 513
+        x: 3074
+        y: 10760
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -384,12 +384,12 @@ TextureImporter:
       name: Saturn sprite sheet_3
       rect:
         serializedVersion: 2
-        x: 4691
-        y: 11271
-        width: 1374
-        height: 513
+        x: 4611
+        y: 10760
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -406,12 +406,12 @@ TextureImporter:
       name: Saturn sprite sheet_4
       rect:
         serializedVersion: 2
-        x: 6233
-        y: 11271
-        width: 1360
-        height: 513
+        x: 6148
+        y: 10760
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -428,12 +428,12 @@ TextureImporter:
       name: Saturn sprite sheet_5
       rect:
         serializedVersion: 2
-        x: 7779
-        y: 11271
-        width: 1353
-        height: 513
+        x: 7685
+        y: 10760
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -450,12 +450,12 @@ TextureImporter:
       name: Saturn sprite sheet_6
       rect:
         serializedVersion: 2
-        x: 9318
-        y: 11271
-        width: 1355
-        height: 513
+        x: 9222
+        y: 10760
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -472,12 +472,12 @@ TextureImporter:
       name: Saturn sprite sheet_7
       rect:
         serializedVersion: 2
-        x: 10850
-        y: 11271
-        width: 1360
-        height: 513
+        x: 10759
+        y: 10760
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -494,12 +494,12 @@ TextureImporter:
       name: Saturn sprite sheet_8
       rect:
         serializedVersion: 2
-        x: 96
-        y: 9734
-        width: 1354
-        height: 513
+        x: 0
+        y: 9223
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -516,12 +516,12 @@ TextureImporter:
       name: Saturn sprite sheet_9
       rect:
         serializedVersion: 2
-        x: 1636
-        y: 9734
-        width: 1349
-        height: 513
+        x: 1537
+        y: 9223
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -538,12 +538,12 @@ TextureImporter:
       name: Saturn sprite sheet_10
       rect:
         serializedVersion: 2
-        x: 3177
-        y: 9734
-        width: 1339
-        height: 513
+        x: 3074
+        y: 9223
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -560,12 +560,12 @@ TextureImporter:
       name: Saturn sprite sheet_11
       rect:
         serializedVersion: 2
-        x: 4720
-        y: 9734
-        width: 1327
-        height: 513
+        x: 4611
+        y: 9223
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -582,12 +582,12 @@ TextureImporter:
       name: Saturn sprite sheet_12
       rect:
         serializedVersion: 2
-        x: 6255
-        y: 9734
-        width: 1331
-        height: 513
+        x: 6148
+        y: 9223
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -604,12 +604,12 @@ TextureImporter:
       name: Saturn sprite sheet_13
       rect:
         serializedVersion: 2
-        x: 7791
-        y: 9734
-        width: 1339
-        height: 513
+        x: 7685
+        y: 9223
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -626,12 +626,12 @@ TextureImporter:
       name: Saturn sprite sheet_14
       rect:
         serializedVersion: 2
-        x: 9323
-        y: 9734
-        width: 1351
-        height: 513
+        x: 9222
+        y: 9223
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -648,12 +648,12 @@ TextureImporter:
       name: Saturn sprite sheet_15
       rect:
         serializedVersion: 2
-        x: 10856
-        y: 9734
-        width: 1358
-        height: 513
+        x: 10759
+        y: 9223
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -670,12 +670,12 @@ TextureImporter:
       name: Saturn sprite sheet_16
       rect:
         serializedVersion: 2
-        x: 88
-        y: 8197
-        width: 1357
-        height: 513
+        x: 0
+        y: 7686
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -692,12 +692,12 @@ TextureImporter:
       name: Saturn sprite sheet_17
       rect:
         serializedVersion: 2
-        x: 1623
-        y: 8197
-        width: 1370
-        height: 513
+        x: 1537
+        y: 7686
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -714,12 +714,12 @@ TextureImporter:
       name: Saturn sprite sheet_18
       rect:
         serializedVersion: 2
-        x: 3164
-        y: 8197
-        width: 1371
-        height: 513
+        x: 3074
+        y: 7686
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -736,12 +736,12 @@ TextureImporter:
       name: Saturn sprite sheet_19
       rect:
         serializedVersion: 2
-        x: 4699
-        y: 8197
-        width: 1374
-        height: 513
+        x: 4611
+        y: 7686
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -758,12 +758,12 @@ TextureImporter:
       name: Saturn sprite sheet_20
       rect:
         serializedVersion: 2
-        x: 6236
-        y: 8197
-        width: 1372
-        height: 513
+        x: 6148
+        y: 7686
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -780,12 +780,12 @@ TextureImporter:
       name: Saturn sprite sheet_21
       rect:
         serializedVersion: 2
-        x: 7779
-        y: 8197
-        width: 1360
-        height: 513
+        x: 7685
+        y: 7686
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -802,12 +802,12 @@ TextureImporter:
       name: Saturn sprite sheet_22
       rect:
         serializedVersion: 2
-        x: 9326
-        y: 8197
-        width: 1338
-        height: 513
+        x: 9222
+        y: 7686
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -824,12 +824,12 @@ TextureImporter:
       name: Saturn sprite sheet_23
       rect:
         serializedVersion: 2
-        x: 10851
-        y: 8197
-        width: 1348
-        height: 513
+        x: 10759
+        y: 7686
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -846,12 +846,12 @@ TextureImporter:
       name: Saturn sprite sheet_24
       rect:
         serializedVersion: 2
-        x: 84
-        y: 6660
-        width: 1368
-        height: 513
+        x: 0
+        y: 6149
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -868,12 +868,12 @@ TextureImporter:
       name: Saturn sprite sheet_25
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 6660
-        width: 1372
-        height: 513
+        x: 1537
+        y: 6149
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -890,12 +890,12 @@ TextureImporter:
       name: Saturn sprite sheet_26
       rect:
         serializedVersion: 2
-        x: 3148
-        y: 6660
-        width: 1372
-        height: 513
+        x: 3074
+        y: 6149
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -912,12 +912,12 @@ TextureImporter:
       name: Saturn sprite sheet_27
       rect:
         serializedVersion: 2
-        x: 4685
-        y: 6660
-        width: 1367
-        height: 513
+        x: 4611
+        y: 6149
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -934,12 +934,12 @@ TextureImporter:
       name: Saturn sprite sheet_28
       rect:
         serializedVersion: 2
-        x: 6228
-        y: 6660
-        width: 1367
-        height: 513
+        x: 6148
+        y: 6149
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -956,12 +956,12 @@ TextureImporter:
       name: Saturn sprite sheet_29
       rect:
         serializedVersion: 2
-        x: 7772
-        y: 6660
-        width: 1360
-        height: 513
+        x: 7685
+        y: 6149
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -978,12 +978,12 @@ TextureImporter:
       name: Saturn sprite sheet_30
       rect:
         serializedVersion: 2
-        x: 9304
-        y: 6660
-        width: 1361
-        height: 513
+        x: 9222
+        y: 6149
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1000,12 +1000,12 @@ TextureImporter:
       name: Saturn sprite sheet_31
       rect:
         serializedVersion: 2
-        x: 10841
-        y: 6660
-        width: 1357
-        height: 513
+        x: 10759
+        y: 6149
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1022,12 +1022,12 @@ TextureImporter:
       name: Saturn sprite sheet_32
       rect:
         serializedVersion: 2
-        x: 87
-        y: 5122
-        width: 1359
-        height: 514
+        x: 0
+        y: 4612
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1044,12 +1044,12 @@ TextureImporter:
       name: Saturn sprite sheet_33
       rect:
         serializedVersion: 2
-        x: 1619
-        y: 5123
-        width: 1372
-        height: 513
+        x: 1537
+        y: 4612
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1066,12 +1066,12 @@ TextureImporter:
       name: Saturn sprite sheet_34
       rect:
         serializedVersion: 2
-        x: 3155
-        y: 5123
-        width: 1377
-        height: 513
+        x: 3074
+        y: 4612
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1088,12 +1088,12 @@ TextureImporter:
       name: Saturn sprite sheet_35
       rect:
         serializedVersion: 2
-        x: 4696
-        y: 5123
-        width: 1374
-        height: 513
+        x: 4611
+        y: 4612
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1110,12 +1110,12 @@ TextureImporter:
       name: Saturn sprite sheet_36
       rect:
         serializedVersion: 2
-        x: 6242
-        y: 5123
-        width: 1360
-        height: 513
+        x: 6148
+        y: 4612
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1132,12 +1132,12 @@ TextureImporter:
       name: Saturn sprite sheet_37
       rect:
         serializedVersion: 2
-        x: 7777
-        y: 5123
-        width: 1353
-        height: 513
+        x: 7685
+        y: 4612
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1154,12 +1154,12 @@ TextureImporter:
       name: Saturn sprite sheet_38
       rect:
         serializedVersion: 2
-        x: 9310
-        y: 5123
-        width: 1355
-        height: 513
+        x: 9222
+        y: 4612
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1176,12 +1176,12 @@ TextureImporter:
       name: Saturn sprite sheet_39
       rect:
         serializedVersion: 2
-        x: 10847
-        y: 5123
-        width: 1360
-        height: 513
+        x: 10759
+        y: 4612
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1198,12 +1198,12 @@ TextureImporter:
       name: Saturn sprite sheet_40
       rect:
         serializedVersion: 2
-        x: 89
-        y: 3586
-        width: 1354
-        height: 513
+        x: 0
+        y: 3075
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1220,12 +1220,12 @@ TextureImporter:
       name: Saturn sprite sheet_41
       rect:
         serializedVersion: 2
-        x: 1628
-        y: 3586
-        width: 1349
-        height: 513
+        x: 1537
+        y: 3075
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1242,12 +1242,12 @@ TextureImporter:
       name: Saturn sprite sheet_42
       rect:
         serializedVersion: 2
-        x: 3171
-        y: 3586
-        width: 1339
-        height: 513
+        x: 3074
+        y: 3075
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1264,12 +1264,12 @@ TextureImporter:
       name: Saturn sprite sheet_43
       rect:
         serializedVersion: 2
-        x: 4714
-        y: 3586
-        width: 1327
-        height: 513
+        x: 4611
+        y: 3075
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1286,12 +1286,12 @@ TextureImporter:
       name: Saturn sprite sheet_44
       rect:
         serializedVersion: 2
-        x: 6249
-        y: 3586
-        width: 1331
-        height: 513
+        x: 6148
+        y: 3075
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1308,12 +1308,12 @@ TextureImporter:
       name: Saturn sprite sheet_45
       rect:
         serializedVersion: 2
-        x: 7779
-        y: 3586
-        width: 1339
-        height: 513
+        x: 7685
+        y: 3075
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1330,12 +1330,12 @@ TextureImporter:
       name: Saturn sprite sheet_46
       rect:
         serializedVersion: 2
-        x: 9309
-        y: 3586
-        width: 1351
-        height: 513
+        x: 9222
+        y: 3075
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1352,12 +1352,12 @@ TextureImporter:
       name: Saturn sprite sheet_47
       rect:
         serializedVersion: 2
-        x: 10843
-        y: 3586
-        width: 1358
-        height: 513
+        x: 10759
+        y: 3075
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1374,12 +1374,12 @@ TextureImporter:
       name: Saturn sprite sheet_48
       rect:
         serializedVersion: 2
-        x: 94
-        y: 2049
-        width: 1357
-        height: 513
+        x: 0
+        y: 1538
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1396,12 +1396,12 @@ TextureImporter:
       name: Saturn sprite sheet_49
       rect:
         serializedVersion: 2
-        x: 1620
-        y: 2049
-        width: 1370
-        height: 513
+        x: 1537
+        y: 1538
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1418,12 +1418,12 @@ TextureImporter:
       name: Saturn sprite sheet_50
       rect:
         serializedVersion: 2
-        x: 3152
-        y: 2049
-        width: 1371
-        height: 513
+        x: 3074
+        y: 1538
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1440,12 +1440,12 @@ TextureImporter:
       name: Saturn sprite sheet_51
       rect:
         serializedVersion: 2
-        x: 4688
-        y: 2049
-        width: 1374
-        height: 513
+        x: 4611
+        y: 1538
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1462,12 +1462,12 @@ TextureImporter:
       name: Saturn sprite sheet_52
       rect:
         serializedVersion: 2
-        x: 6227
-        y: 2049
-        width: 1372
-        height: 513
+        x: 6148
+        y: 1538
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1484,12 +1484,12 @@ TextureImporter:
       name: Saturn sprite sheet_53
       rect:
         serializedVersion: 2
-        x: 7770
-        y: 2049
-        width: 1360
-        height: 513
+        x: 7685
+        y: 1538
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1506,12 +1506,12 @@ TextureImporter:
       name: Saturn sprite sheet_54
       rect:
         serializedVersion: 2
-        x: 9319
-        y: 2049
-        width: 1338
-        height: 513
+        x: 9222
+        y: 1538
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1528,12 +1528,12 @@ TextureImporter:
       name: Saturn sprite sheet_55
       rect:
         serializedVersion: 2
-        x: 10858
-        y: 2049
-        width: 1348
-        height: 513
+        x: 10759
+        y: 1538
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1550,12 +1550,12 @@ TextureImporter:
       name: Saturn sprite sheet_56
       rect:
         serializedVersion: 2
-        x: 87
-        y: 512
-        width: 1368
-        height: 513
+        x: 0
+        y: 1
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1572,12 +1572,12 @@ TextureImporter:
       name: Saturn sprite sheet_57
       rect:
         serializedVersion: 2
-        x: 1625
-        y: 512
-        width: 1372
-        height: 513
+        x: 1537
+        y: 1
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1594,12 +1594,12 @@ TextureImporter:
       name: Saturn sprite sheet_58
       rect:
         serializedVersion: 2
-        x: 3167
-        y: 512
-        width: 1372
-        height: 513
+        x: 3074
+        y: 1
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1616,12 +1616,12 @@ TextureImporter:
       name: Saturn sprite sheet_59
       rect:
         serializedVersion: 2
-        x: 4709
-        y: 512
-        width: 1367
-        height: 513
+        x: 4611
+        y: 1
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1638,12 +1638,12 @@ TextureImporter:
       name: Saturn sprite sheet_60
       rect:
         serializedVersion: 2
-        x: 6240
-        y: 512
-        width: 1367
-        height: 513
+        x: 6148
+        y: 1
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1660,12 +1660,12 @@ TextureImporter:
       name: Saturn sprite sheet_61
       rect:
         serializedVersion: 2
-        x: 7777
-        y: 512
-        width: 1360
-        height: 513
+        x: 7685
+        y: 1
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1682,12 +1682,12 @@ TextureImporter:
       name: Saturn sprite sheet_62
       rect:
         serializedVersion: 2
-        x: 9318
-        y: 512
-        width: 1361
-        height: 513
+        x: 9222
+        y: 1
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1704,12 +1704,12 @@ TextureImporter:
       name: Saturn sprite sheet_63
       rect:
         serializedVersion: 2
-        x: 10859
-        y: 512
-        width: 1357
-        height: 513
+        x: 10759
+        y: 1
+        width: 1537
+        height: 1537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1726,7 +1726,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9289b7be7812c0c4da7bafbaad19f66d
     internalID: 0
     vertices: []
     indices: 
@@ -1734,7 +1734,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":8.0},"gridSpriteSize":{"x":1537.0,"y":1537.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Saturn sprite sheet_0: 5929517919862788502
       Saturn sprite sheet_1: -4105650180588729362
