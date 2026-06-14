@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class ShipMovement : MonoBehaviour
 {
-    [SerializeField] private float ShipSpeed, ShipTurningSpeed, ShipFuelConsumption, FuelTankSize;
+    [SerializeField] private float ShipFullSpeed, ShipTurningSpeed, ShipFuelConsumption, FuelTankSize;
     [SerializeField, Space(8)] private ParticleSystem EngineFlames;
-    private float _remainingFuel, _currentFuelAmount, _timeScaler = 100f;
+    private float _currentFuelAmount, _timeScaler = 100f, _shipCurrentSpeed = 1;
     private Rigidbody2D _rb;
     private Transform _t;
 
@@ -31,14 +31,19 @@ public class ShipMovement : MonoBehaviour
 
     void Update()
     {
+        float m_enginePowerInput = _inputs.Player.enginePower?.ReadValue<float>() ?? 0f;
+        ChangeShipSpeed(m_enginePowerInput * 0.1f);
+
         if (_inputs.Player.Move.IsInProgress())
         {
             Vector2 m_movementVector = _inputs.Player.Move.ReadValue<Vector2>();
-            MoveShip(m_movementVector.y);
-            RotateShip(m_movementVector.x);
+            MoveShip(m_movementVector);
+            RotateShip(m_movementVector.normalized);
             ConsumeFuel(ShipFuelConsumption);
 
             EngineFlames.Play();
+            var m_engineFlamesParticles = EngineFlames.emission;
+            m_engineFlamesParticles.rateOverTime = Mathf.RoundToInt(200f * _shipCurrentSpeed);
             return;
         }
 
@@ -50,17 +55,19 @@ public class ShipMovement : MonoBehaviour
         _currentFuelAmount -= shipFuelConsumption * Time.deltaTime;
     }
 
-    private void RotateShip(float x)
+    private void RotateShip(Vector2 MoveDirection)
     {
-        if (_currentFuelAmount <= 0) return;
-
-        _rb.AddTorque(ShipTurningSpeed * Time.deltaTime * _timeScaler * -x, ForceMode2D.Force);
+        _t.rotation = Quaternion.RotateTowards(_t.rotation, Quaternion.Euler(0, 0, Vector2.SignedAngle(Vector2.up, MoveDirection)), ShipTurningSpeed);
     }
 
-    private void MoveShip(float y)
+    private void MoveShip(Vector2 MoveVec)
     {
-        if (_currentFuelAmount <= 0) return;
+        _rb.AddForce(_shipCurrentSpeed * ShipFullSpeed * _timeScaler * Time.deltaTime * MoveVec, ForceMode2D.Force);
+    }
 
-        _rb?.AddForce(ShipSpeed * Time.deltaTime * _timeScaler * y * _t.up, ForceMode2D.Force);
+    private void ChangeShipSpeed(float changeDirection)
+    {
+        _shipCurrentSpeed += changeDirection;
+        _shipCurrentSpeed = Mathf.Clamp01(_shipCurrentSpeed);
     }
 }
