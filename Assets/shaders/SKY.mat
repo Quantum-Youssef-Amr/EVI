@@ -50,11 +50,11 @@ Material:
     - _UIMaskSoftnessX: 1
     - _UIMaskSoftnessY: 1
     - _sky_scale: 200
-    - _sky_step: 1.05
+    - _sky_step: 1.07
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
-    - _Stars_color: {r: 2, g: 1.969324, b: 1.59434, a: 1}
+    - _Stars_color: {r: 2, g: 2, b: 2, a: 1}
     - _main_Sky_color: {r: 0.06460272, g: 0.05326628, b: 0.08490565, a: 1}
-    - _sky_offset: {r: 0, g: 0, b: 0, a: 0}
+    - _sky_offset: {r: 0.38371158, g: 0.072389625, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -16,11 +16,22 @@ public class PlanetOrbiter : MonoBehaviour
 
     void Update()
     {
-        _currentOrbitAngle += 1f * OrbitSpeed * (1 / _distanceFromMainBody);
-        _t.position = new Vector3(
-            Mathf.Cos(_currentOrbitAngle),
-            Mathf.Sin(_currentOrbitAngle),
+        _currentOrbitAngle += 1f * OrbitSpeed * (1 / _distanceFromMainBody) * Time.deltaTime;
+        _t.position = GetWorldPositionFromAngle(_currentOrbitAngle);
+    }
+
+    private Vector3 GetWorldPositionFromAngle(float OrbitAngle)
+    {
+        return new Vector3(
+            Mathf.Cos(OrbitAngle),
+            Mathf.Sin(OrbitAngle),
             0f
-        ) * _distanceFromMainBody;
+        ) * Vector2.Distance(MainBodyToOrbit.position, transform.position); ;
+    }
+
+    [ContextMenu("Set random Orbit Position")]
+    private void SetRandomOrbitPosition()
+    {
+        transform.position = GetWorldPositionFromAngle(Random.value * 360f);
     }
 }

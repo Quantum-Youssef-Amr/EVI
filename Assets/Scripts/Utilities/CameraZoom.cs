@@ -5,9 +5,8 @@ public class CameraZoom : MonoBehaviour
 {
     [SerializeField] private Vector2Int ZoomBounds = new(8, 16);
     [SerializeField] private float Sensitivity = 2;
-    private PixelPerfectCamera _camera;
 
-
+    private Camera _camera;
     #region InputSystem
     private NewInputSystem _inputs;
     void Awake() => _inputs = new();
@@ -18,13 +17,13 @@ public class CameraZoom : MonoBehaviour
     void Start()
     {
         Application.targetFrameRate = 60;
-        _camera = GetComponent<PixelPerfectCamera>();
+        _camera = Camera.main;
     }
 
     void Update()
     {
         float m_scrollDelta = _inputs.Player.zoom.ReadValue<Vector2>().y;
-        _camera.assetsPPU = Mathf.RoundToInt(m_scrollDelta * Sensitivity + _camera.assetsPPU);
-        _camera.assetsPPU = Mathf.Clamp(_camera.assetsPPU, ZoomBounds.x, ZoomBounds.y);
+        _camera.orthographicSize = Mathf.RoundToInt(m_scrollDelta * Sensitivity + _camera.orthographicSize);
+        _camera.orthographicSize = Mathf.Clamp(_camera.orthographicSize, ZoomBounds.x, ZoomBounds.y);
     }
 }

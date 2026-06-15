@@ -3,6 +3,7 @@ using UnityEngine.U2D.Animation;
 using System.Collections;
 using System;
 
+[RequireComponent(typeof(SpriteRenderer)), RequireComponent(typeof(SpriteResolver)), RequireComponent(typeof(SpriteLibrary))]
 public class PlanetSpriteAnimator : MonoBehaviour
 {
     [SerializeField] private SpriteResolver spriteResolver;
