@@ -55,6 +55,6 @@ Material:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _Stars_color: {r: 2, g: 2, b: 2, a: 1}
     - _main_Sky_color: {r: 0.06460272, g: 0.05326628, b: 0.08490565, a: 1}
-    - _sky_offset: {r: 0.38371158, g: 0.072389625, b: 0, a: 0}
+    - _sky_offset: {r: -1.2642032, g: -0.6986673, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
